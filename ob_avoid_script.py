@@ -33,17 +33,17 @@ while(not detect):
                 quad = cam.get_quad(center[0],center[1])
                 dirct = cam.get_dir(quad)
                 print(dirct)
-           ## else:
-                #cam.move('l')
-                #print('not detected moving left')
+            else:
+                cam.move('l')
+                print('not detected moving left')
         
         
         
     
     
-    #if (dirct == 'f'):
-        #cam.move('f')
-        #print('f')
+    if (dirct == 'f'):
+        cam.move('f')
+        print('f')
        
 
     
